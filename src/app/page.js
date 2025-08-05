@@ -184,8 +184,8 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "The stylists at Color Sense truly understand hair. I've never left disappointed. They've 
-                transformed my damaged hair into healthy, beautiful locks."
+                &ldquo;The stylists at Color Sense truly understand hair. I&apos;ve never left disappointed. They&apos;ve 
+                transformed my damaged hair into healthy, beautiful locks.&rdquo;
               </p>
               <div className="flex mt-4 text-amber-400">
                 {[...Array(5)].map((_, i) => (
