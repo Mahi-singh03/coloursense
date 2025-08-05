@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Bars3Icon, XMarkIcon, MoonIcon, SunIcon } from '@heroicons/react/24/outline';
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaPhone, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -55,11 +55,12 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { 
-      icon: <FaFacebook className="h-5 w-5" />, 
-      href: 'https://www.facebook.com/yourpage', 
-      name: 'Facebook' 
+    {
+      icon: <FaPhone className="h-5 w-5" />,
+      href: 'tel:+919463926371',
+      name: 'Call Us'
     },
+    
     { 
       icon: <FaInstagram className="h-5 w-5" />, 
       href: 'https://www.instagram.com/color_sense_cs/', 
@@ -67,7 +68,7 @@ const Navbar = () => {
     },
     { 
       icon: <FaWhatsapp className="h-5 w-5" />, 
-      href: 'https://wa.me/9463926371?text=i%need%20help%20with%20Color%20Sense,%20I%20would%20like%20to%20inquire%20about...', 
+      href: 'https://wa.me/9463926371?text=Hi%2C%20I%20am%20interested%20in%20your%20services%20at%20Colour%20Sense%20Salon.%20Could%20you%20please%20help%20me%20with%20more%20details%3F',
       name: 'WhatsApp' 
     }
   ];
