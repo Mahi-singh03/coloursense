@@ -62,12 +62,12 @@ const Navbar = () => {
     },
     { 
       icon: <FaInstagram className="h-5 w-5" />, 
-      href: 'https://www.instagram.com/yourpage', 
+      href: 'https://www.instagram.com/color_sense_cs/', 
       name: 'Instagram' 
     },
     { 
       icon: <FaWhatsapp className="h-5 w-5" />, 
-      href: 'https://wa.me/1234567890?text=Hello%20Color%20Sense,%20I%20would%20like%20to%20inquire%20about...', 
+      href: 'https://wa.me/9463926371?text=i%need%20help%20with%20Color%20Sense,%20I%20would%20like%20to%20inquire%20about...', 
       name: 'WhatsApp' 
     }
   ];
